@@ -1,0 +1,165 @@
+/* # Cores
+
+cinza-fundo: #f7f7f7
+cinza-texto: #c6c6c6
+vermelho: #ee2211
+
+# Tipografia
+
+fonte: Arial
+parágrafos: 20px
+Vantagens Bikcraft: 64px
+
+# Tamanhos
+
+conteúdo principal: máximo 1000px */
+
+*{
+    background-color:  #f7f3f3;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+    font-size: 32px;
+    
+}
+.manu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+}
+.manu > .meni-li{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    width: 90px;
+    padding: 10px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border: solid 1px  #f5f5f5;
+}
+img{
+    width: 400px;
+    background: white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    margin: 40px;
+    
+}
+.bicicletas{
+    display: grid;
+    font-size: 31px;
+    text-transform: capitalize;
+    text-align: end;
+    background: white;
+}
+.conteudo{
+ grid-column: 1;
+ grid-row:  2 / 2;
+ display: grid;
+ text-align: end;
+ font-size: 20px;
+ font-weight: 500;
+ font-style: oblique;
+ background: white;
+ 
+}
+.bnt{
+    grid-column: 1;
+    display: grid;
+    place-self: center end;
+    height: 8vh;
+    width: 10vw;
+    align-items: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 11px;
+    color: white;
+    background:#ee2211;
+    border: solid 1px white;
+}
+.img{
+    grid-column: 2;
+    background: white;
+    width: 100%;
+    
+}
+.colum{
+    display: grid;
+    align-items: center;
+    width: 326px;
+    height: 280px;
+    text-align: center;
+    place-self: center end;
+    margin: 30px;
+    background: white;
+}
+.titutlo{
+ grid-column: 2;
+}
+.bloco{
+  display: grid;
+  grid-template-columns: 1fr 1fr;;
+}
+
+.grid2{
+    display: grid;
+    grid-column: 1;
+}
+.titutlo{
+    font-size: 64px;
+    display: grid;
+}
+.bloco{
+    grid-column: 2;
+    grid-column: 2;
+    display: block;
+    height: 40vw;
+    background: white;
+    margin: 40px;
+}
+.h2-bloco{
+    padding-bottom: 10px;
+    font-size: 19px;
+    text-transform: capitalize;
+    background-color: white;
+}
+.p-bloco{
+    font-size: 17px;
+    text-align: start;
+    width: 23vw;
+    background-color: white;
+}
+.box{
+    margin: 23px;
+    padding: 15px;
+    background-color: white;
+}
+.titulo-grid2{
+    display: grid;
+    align-items: center;
+    text-align: end;
+    padding: 20px;
+    color: #807d7d;
+}
+.h2-bloco>.a{
+    list-style: disc;
+    text-decoration: none;
+    color: rgb(32, 30, 30);
+}
+

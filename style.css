@@ -50,6 +50,10 @@ conteúdo principal: máximo 1000px */
     text-transform: uppercase;
     border: solid 1px  #f5f5f5;
 }
+.meni-li:hover{
+    border: solid red 1px;
+    transition: 0.4s;
+}
 img{
     width: 400px;
     background: white;
@@ -58,7 +62,7 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: white;
-    margin: 40px;
+    margin: 0px 20px 0px 20px;
     
 }
 .bicicletas{
@@ -93,6 +97,10 @@ img{
     background:#ee2211;
     border: solid 1px white;
 }
+.bnt:hover{
+    background-color:#b71204;
+    transition: 0.3s;
+}
 .img{
     grid-column: 2;
     background: white;
@@ -112,14 +120,11 @@ img{
 .titutlo{
  grid-column: 2;
 }
-.bloco{
-  display: grid;
-  grid-template-columns: 1fr 1fr;;
-}
 
 .grid2{
     display: grid;
     grid-column: 1;
+    width: 47vw;
 }
 .titutlo{
     font-size: 64px;
@@ -131,7 +136,7 @@ img{
     display: block;
     height: 40vw;
     background: white;
-    margin: 40px;
+    width: 49vw;
 }
 .h2-bloco{
     padding-bottom: 10px;
@@ -150,16 +155,25 @@ img{
     padding: 15px;
     background-color: white;
 }
+.box:hover{
+    border-left: solid red 3px;
+    transition: 0.3s;
+}
 .titulo-grid2{
     display: grid;
     align-items: center;
     text-align: end;
-    padding: 20px;
     color: #807d7d;
 }
 .h2-bloco>.a{
     list-style: disc;
     text-decoration: none;
     color: rgb(32, 30, 30);
+}
+
+article{
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
 }
 

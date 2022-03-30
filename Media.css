@@ -1,0 +1,227 @@
+@media  (min-width:320px) and (max-width:425px){
+    .manu{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+    }
+    .manu> .meni-li{
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+        height: 5rem;
+        display: flex;
+        width: 19rem;
+        padding: 10px;
+        margin: 10px;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+    }
+    .grid{
+        display: flex;
+        background: white;
+        width: 21rem;
+        flex-direction: column-reverse;
+    }
+    .img{
+        display: flex;
+        background: white;
+        width: 100%;
+        padding: 5px;
+    }
+    .colum{
+        display: grid;
+        align-items: center;
+        height: 30rem;
+        padding: 0 12px 0 10px;
+        background: white;
+    }
+    .bicicletas{
+        display: grid;
+        font-size: 2rem;
+        text-transform: capitalize;
+        text-align: center;
+        background: white;
+        height: 20vh;
+
+    }
+    .conteudo{
+        display: grid;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        height: 25vh;
+        font-style: oblique;
+        background: white;
+    }
+    .bnt{
+        place-self: center;
+        display: grid;
+        height: 8vh;
+        width: 64vw;
+        align-items: center;
+        font-size: 15px;
+        text-transform: uppercase;
+        border-radius: 11px;
+        color: white;
+        background: #ee2211;
+        border: solid 1px white;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        width: 96vw;
+    }
+    .titulo-grid2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 51vw;
+        height: 76vh;
+        background-color: white;
+    }
+    .titulo{
+        font-size: 70px;
+        color: darkgray;
+    }
+    .bloco{
+        height: 115vh;
+        background: white;
+        display: grid;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 95vw;
+        margin: 10px;
+        justify-content: center;
+    }
+    .h2-bloco>.a{
+        font-size: 1.9rem;
+    }
+    .p-bloco{
+        font-size: 19px;
+        text-align: start;
+        width: 72vw;
+        background-color: white;
+    }
+
+} 
+@media (min-width: 425px) and (max-width:768px){
+    .manu{
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .manu>.meni-li{
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+        height: 70px;
+        display: flex;
+        padding: 10px;
+        margin: 20px;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        border: solid 1px #f5f5f5;
+        width: 94%;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column-reverse;
+        background: white;
+        margin: 0px 20px 0px 20px;
+    }
+    .colum{
+        display: grid;
+        align-items: center;
+        width: 39rem;
+        height: 45vh;
+        text-align: center;
+        place-self: center end;
+        margin: 30px;
+        background: white;
+    }
+    .bicicletas{
+        display: grid;
+        font-size: 3rem;
+        text-transform: capitalize;
+        text-align: center;
+        background: white;
+    }
+    .conteudo{
+        display: flex;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        font-style: oblique;
+        background: white;
+    }
+    .bnt{
+        display: grid;
+        place-self: center;
+        height: 10vh;
+        width: 50vw;
+        align-items: center;
+        font-size: 18px;
+        text-transform: uppercase;
+        border-radius: 11px;
+        color: white;
+        background: #ee2211;
+        border: solid 1px white;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        width: 96vw;
+    }
+    .bloco{
+        height: 75vh;
+        background: white;
+        display: grid;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 85vw;
+        margin: 10px;
+        justify-content: center;
+    }
+    .h2-bloco>.a{
+        font-size: 1.9rem;
+    }
+    .titutlo{
+        font-size: 6rem;
+        display: grid;
+        height: 20rem;
+    }
+    .box{
+        margin: 23px;
+        padding: 15px;
+        background-color: white;
+        height: 17vh;
+    }
+    .h2-bloco{
+        padding-bottom: 10px;
+        font-size: 19px;
+        text-transform: capitalize;
+        background-color: white;
+        
+    }
+    .p-bloco{
+        font-size: 19px;
+        text-align: start;
+        width: 72vw;
+        background-color: white;
+    }
+
+    
+    
+}
+@media(min-width:768px) and (max-width:1024px){
+    .bloco{
+        display: block;
+        height: 40vw;
+        background: white;
+        width: 50vw;
+    }
+}
